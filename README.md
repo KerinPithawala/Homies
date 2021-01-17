@@ -34,6 +34,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
+ all-contributors/add-crispyfalafel
+    <td align="center"><a href="https://github.com/crispyfalafel"><img src="https://avatars1.githubusercontent.com/u/61108483?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jolin Lin</b></sub></a><br /><a href="#infra-crispyfalafel" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+
  all-contributors/add-sal2701
     <td align="center"><a href="https://sal2701.github.io"><img src="https://avatars0.githubusercontent.com/u/42511766?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Saiakash Konidena</b></sub></a><br /><a href="https://github.com/KerinPithawala/Homies/commits?author=sal2701" title="Code">💻</a></td>
 
@@ -43,6 +46,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/KerinPithawala"><img src="https://avatars3.githubusercontent.com/u/46436993?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kerin Pithawala</b></sub></a><br /><a href="#design-KerinPithawala" title="Design">🎨</a></td>
 main
 
+ main
   </tr>
 </table>
 

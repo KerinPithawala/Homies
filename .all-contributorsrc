@@ -6,6 +6,14 @@
   "commit": false,
   "contributors": [
     {
+all-contributors/add-crispyfalafel
+      "login": "crispyfalafel",
+      "name": "Jolin Lin",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/61108483?v=4",
+      "profile": "https://github.com/crispyfalafel",
+      "contributions": [
+        "infra"
+
  all-contributors/add-sal2701
       "login": "sal2701",
       "name": "Saiakash Konidena",
@@ -22,6 +30,7 @@ all-contributors/add-friendly304010
       "contributions": [
         "code"
 
+ main
  main
       ]
     }
