@@ -1,4 +1,18 @@
-# Homies
+<p align="center">
+  <a href="#"><img src="https://capsule-render.vercel.app/api?type=rect&color=48BFE3&height=100&section=header&text=RecipeBookFlutter&fontSize=60%&fontColor=ffffff" alt="website title image"></a>
+  <h2 align="center">HOMIES</h2>
+</p>
+
+
+<p align="center">
+<img src="https://img.shields.io/badge/language-Flutter-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/language-Android-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/language-Backend-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/language-API-blue?style=for-the-badge">  
+ </p>
+ 
+ 
+## 📌 Introduction
 Stay at home. Compete with friends. Keep neighbourhoods safe.
 Project made during HackTheNorth 2020++
 
