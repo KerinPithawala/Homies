@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="#"><img src="https://capsule-render.vercel.app/api?type=rect&color=48BFE3&height=100&section=header&text=RecipeBookFlutter&fontSize=60%&fontColor=ffffff" alt="website title image"></a>
+  <a href="#"><img src="https://capsule-render.vercel.app/api?type=rect&color=48BFE3&height=100&section=header&text=Homies&fontSize=60%&fontColor=ffffff" alt="website title image"></a>
   <h2 align="center">HOMIES</h2>
 </p>
 
