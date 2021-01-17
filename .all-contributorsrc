@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "KerinPithawala",
+      "name": "Kerin Pithawala",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46436993?v=4",
+      "profile": "https://github.com/KerinPithawala",
+      "contributions": [
+        "design"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Homies",
+  "projectOwner": "KerinPithawala",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
