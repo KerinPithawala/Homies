@@ -1,4 +1,5 @@
-# Trippin
+# Homies
+Stay at home with your buddies!
 Project made during HackTheNorth 2020++
 
 During this pandemic it is extremely important to reduce going out to decrease the rate of virus transmission.
