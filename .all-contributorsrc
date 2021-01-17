@@ -6,12 +6,23 @@
   "commit": false,
   "contributors": [
     {
+ all-contributors/add-sal2701
       "login": "sal2701",
       "name": "Saiakash Konidena",
       "avatar_url": "https://avatars0.githubusercontent.com/u/42511766?v=4",
       "profile": "https://sal2701.github.io",
       "contributions": [
         "code"
+
+all-contributors/add-friendly304010
+      "login": "friendly304010",
+      "name": "Samantha Ouyang",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/43822090?v=4",
+      "profile": "https://github.com/friendly304010",
+      "contributions": [
+        "code"
+
+ main
       ]
     }
   ],
