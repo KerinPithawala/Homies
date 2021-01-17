@@ -1,10 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_app_test/RegisterRoute.dart';
 
 import 'LandingButton.dart';
+import 'LandingButtonText.dart';
 import 'LandingLogo.dart';
 import 'LandingSubText.dart';
 import 'LandingWelcomeText.dart';
+import 'LoginRoute.dart';
 
 class LandingRoute extends StatelessWidget {
   @override
@@ -48,8 +51,90 @@ class LandingRoute extends StatelessWidget {
                   height: 51,
                   child: Row(
                     children: [
-                      LandingButton(),
-                      LandingButton(),
+                      Container(
+                        width: 134,
+                        height: 51,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20),
+                          boxShadow: [
+                            BoxShadow(
+                              color: Color(0x3f000000),
+                              blurRadius: 4,
+                              offset: Offset(0, 4),
+                            ),
+                          ],
+                          color: Color(0xffa4b3e6),
+                        ),
+                        margin: const EdgeInsets.only(right: 12),
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 15,
+                          vertical: 18,
+                        ),
+                        child: Container(
+                            width: 74,
+                            child: FlatButton(
+                              onPressed: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => LoginRoute()),
+                                );
+                              },
+                              child: Text(
+                                "LOG IN",
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  color: Color(0xfff1faee),
+                                  fontSize: 13,
+                                  fontFamily: "Roboto",
+                                  fontWeight: FontWeight.w900,
+                                  letterSpacing: 0.52,
+                                ),
+                              ),
+                            )),
+                      ),
+                      Container(
+                        width: 134,
+                        height: 51,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20),
+                          boxShadow: [
+                            BoxShadow(
+                              color: Color(0x3f000000),
+                              blurRadius: 4,
+                              offset: Offset(0, 4),
+                            ),
+                          ],
+                          color: Color(0xffa4b3e6),
+                        ),
+                        margin: const EdgeInsets.only(right: 12),
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 15,
+                          vertical: 18,
+                        ),
+                        child: Container(
+                            width: 74,
+                            child: FlatButton(
+                              onPressed: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => RegisterRoute()),
+                                );
+                              },
+                              child: Text(
+                                "REGISTER",
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  color: Color(0xfff1faee),
+                                  fontSize: 13,
+                                  fontFamily: "Roboto",
+                                  fontWeight: FontWeight.w900,
+                                  letterSpacing: 0.52,
+                                ),
+                              ),
+                            )),
+                      ),
                     ],
                   )),
             ],

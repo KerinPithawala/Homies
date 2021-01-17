@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app_test/BottomNavigation.dart';
 import 'package:flutter_app_test/ProfilePictureCard.dart';
 import 'package:flutter_app_test/ProfileScoreCard.dart';
+import 'package:flutter_app_test/ProfileUploadButton.dart';
 
 import 'ListTitle.dart';
 import 'TitleBar.dart';
@@ -23,6 +24,26 @@ class ProfileRoute extends StatelessWidget {
                 child: TitleBar(),
               ),
             ),
+            Positioned(
+              left: 29,
+              top: 100,
+              child: SizedBox(
+                width: 351,
+                height: 35,
+                child: Text(
+                  "Collateral Gallery",
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 24,
+                    fontFamily: "Poppins",
+                    fontWeight: FontWeight.w700,
+                  ),
+                ),
+              )),
+            Positioned(
+                left: 285,
+                top: 95,
+                child: ProfileUploadButton()),
             Positioned(
               left: 29,
               top: 342,

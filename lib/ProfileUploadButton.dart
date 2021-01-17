@@ -18,12 +18,12 @@ class ProfileUploadButton extends StatelessWidget {
         color: Color(0xffa4b3e6),
       ),
       padding: const EdgeInsets.symmetric(
-        horizontal: 20,
-        vertical: 18,
+        horizontal: 5,
+        vertical: 9,
       ),
       child: SizedBox(
         width: 53,
-        height: 4,
+        height: 40,
         child: Text(
           "UPLOAD",
           textAlign: TextAlign.center,

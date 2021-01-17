@@ -10,17 +10,28 @@ class BottomNavText extends StatelessWidget {
       child: SizedBox(
         width: 93,
         height: 16,
-        child: Text(
-          "PROFILE",
-          textAlign: TextAlign.center,
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 13,
-            fontFamily: "Roboto",
-            fontWeight: FontWeight.w900,
-            letterSpacing: 0.52,
-          ),
-        ),
+        child: Container(
+            width: 74,
+            child: FlatButton(
+              onPressed: () {
+                // Navigator.push(
+                //   context,
+                //   MaterialPageRoute(
+                //       builder: (context) => LoginRoute()),
+                // );
+              },
+              child: Text(
+                "PROFILE",
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 13,
+                  fontFamily: "Roboto",
+                  fontWeight: FontWeight.w900,
+                  letterSpacing: 0.52,
+                ),
+              ),
+            )),
       ),
     );
   }

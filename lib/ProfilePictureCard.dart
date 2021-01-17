@@ -22,16 +22,24 @@ class ProfilePictureCard extends StatelessWidget {
         top: 14,
         bottom: 15,
       ),
-      child: Container(
-        width: 180,
-        height: 146,
-        decoration: BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage('assets/horse.png'),
-            fit: BoxFit.fill,
+      child: Stack(
+        children: [
+          Container(
+            width: 220,
+            height: 146,
+            margin: const EdgeInsets.only(
+              left: 15,
+              right: 15,
+            ),
+            decoration: BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage('assets/horse.png'),
+                fit: BoxFit.fill,
+              ),
+            ),
           ),
-        ),
-      ),
+        ],
+      )
     );
   }
 }

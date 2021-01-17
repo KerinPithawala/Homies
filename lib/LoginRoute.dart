@@ -6,6 +6,7 @@ import 'package:flutter_app_test/LoginInputField.dart';
 import 'package:flutter_app_test/LoginLogo.dart';
 import 'package:flutter_app_test/LoginSubtext.dart';
 
+import 'SquadRoute.dart';
 import 'main.dart';
 
 class LoginRoute extends StatelessWidget {
@@ -33,13 +34,117 @@ class LoginRoute extends StatelessWidget {
             children: [
               LoginLogo(),
               SizedBox(height: 20.50),
-              LoginInputField(),
+              Container(
+                width: 325,
+                height: 56,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(15),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Color(0x3f000000),
+                      blurRadius: 4,
+                      offset: Offset(0, 4),
+                    ),
+                  ],
+                  color: Colors.white,
+                ),
+                padding: const EdgeInsets.only(
+                  left: 22,
+                  right: 90,
+                  top: 15,
+                  bottom: 14,
+                ),
+                child: SizedBox(
+                  width: 213,
+                  height: 20,
+                  child: Text(
+                    "Username",
+                    style: TextStyle(
+                      color: Color(0x59000000),
+                      fontSize: 24,
+                      fontFamily: "Open Sans",
+                      fontWeight: FontWeight.w300,
+                    ),
+                  ),
+                ),
+              ),
               SizedBox(height: 20.50),
-              LoginInputField(),
+              Container(
+                width: 325,
+                height: 56,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(15),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Color(0x3f000000),
+                      blurRadius: 4,
+                      offset: Offset(0, 4),
+                    ),
+                  ],
+                  color: Colors.white,
+                ),
+                padding: const EdgeInsets.only(
+                  left: 22,
+                  right: 90,
+                  top: 15,
+                  bottom: 14,
+                ),
+                child: SizedBox(
+                  width: 213,
+                  height: 20,
+                  child: Text(
+                    "Password",
+                    style: TextStyle(
+                      color: Color(0x59000000),
+                      fontSize: 24,
+                      fontFamily: "Open Sans",
+                      fontWeight: FontWeight.w300,
+                    ),
+                  ),
+                ),
+              ),
               SizedBox(height: 10.50),
               LoginForgotPassword(),
               SizedBox(height: 20.50),
-              LoginButton(),
+              Container(
+                width: 188,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Color(0x3f000000),
+                      blurRadius: 4,
+                      offset: Offset(0, 4),
+                    ),
+                  ],
+                  color: Color(0xffa4b3e6),
+                ),
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 30,
+                  vertical: 3,
+                ),
+                child: Container(
+                    width: 68,
+                    child: FlatButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => SquadRoute()),
+                        );
+                      },
+                      child: Text(
+                        "LOG IN",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          color: Color(0xfff1faee),
+                          fontSize: 13,
+                          fontFamily: "Roboto",
+                          fontWeight: FontWeight.w900,
+                          letterSpacing: 0.52,
+                        ),
+                      ),
+                    )),
+              ),
               SizedBox(height: 110),
               LoginSubtext(),
               SizedBox(height: 42),

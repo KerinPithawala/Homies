@@ -10,7 +10,17 @@ class ProfileScoreCard extends StatelessWidget {
       child: Container(
         width: 351,
         height: 70,
-        color: Colors.white,
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(10),
+          boxShadow: [
+            BoxShadow(
+              color: Color(0x3f000000),
+              blurRadius: 4,
+              offset: Offset(0, 4),
+            ),
+          ],
+          color: Colors.white,
+        ),
         child: Stack(
           children: [
             Positioned.fill(

@@ -1,11 +1,12 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter_app_test/TripsSearchBar.dart';
 
 class TripsHeader extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 411,
-      height: 84,
+      width: 412,
+      height: 120,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.only(
           topLeft: Radius.circular(0),
@@ -18,6 +19,16 @@ class TripsHeader extends StatelessWidget {
           end: Alignment.topCenter,
           colors: [Color(0xff377ccf), Color(0xff6930c3)],
         ),
+      ),
+      child: Stack(
+        children: [
+          Positioned(
+            left: 100,
+            top: 50,
+            child: TripsSearchBar(),
+          )
+
+        ],
       ),
     );
   }

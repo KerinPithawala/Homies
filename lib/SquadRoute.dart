@@ -19,10 +19,26 @@ class SquadRoute extends StatelessWidget {
             children: [
               Positioned.fill(
                 child: Align(
-                  alignment: Alignment.topLeft,
+                alignment: Alignment.topLeft,
                   child: TitleBar(),
                 ),
               ),
+              Positioned(
+                  left: 29,
+                  top: 100,
+                  child: SizedBox(
+                    width: 351,
+                    height: 35,
+                    child: Text(
+                      "Recent Losers",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 24,
+                        fontFamily: "Poppins",
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
+                  )),
               Positioned(
                 left: 29,
                 top: 342,
@@ -37,26 +53,17 @@ class SquadRoute extends StatelessWidget {
               Positioned(
                 left: 364,
                 top: 141,
-                child: Container(
-                  width: 330,
-                  height: 175,
-                  color: Colors.white,
-                  padding: const EdgeInsets.only(
-                    left: 17,
-                    right: 137,
-                    top: 15,
-                    bottom: 21,
-                  ),
-                  child: Container(
-                    width: 176,
-                    height: 139,
-                  ),
-                ),
+                child: SquadLoserCard(),
               ),
-              LeaderboardCard(),
-              LeaderboardCard(),
-              LeaderboardCard(),
-              LeaderboardCard(),
+              Positioned(
+                  left: 29,
+                  top: 380,
+                  child: LeaderboardCard()),
+              Positioned(
+                  left: 29,
+                  top: 462,
+                  child: LeaderboardCard()),
+
               Positioned.fill(
                 child: Align(
                   alignment: Alignment.bottomLeft,
