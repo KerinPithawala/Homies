@@ -1,9 +1,9 @@
 <p align="center">
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
   <a href="#"><img src="https://capsule-render.vercel.app/api?type=rect&color=48BFE3&height=100&section=header&text=Homies&fontSize=60%&fontColor=ffffff" alt="website title image"></a>
-  <h2 align="center">HOMIES</h2>
+
 </p>
 
 
@@ -34,7 +34,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
- all-contributors/add-crispyfalafel
+all-contributors/add-crispyfalafel
     <td align="center"><a href="https://github.com/crispyfalafel"><img src="https://avatars1.githubusercontent.com/u/61108483?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jolin Lin</b></sub></a><br /><a href="#infra-crispyfalafel" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
 
  all-contributors/add-sal2701
