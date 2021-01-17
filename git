@@ -1,0 +1,38 @@
+[33mcommit dd0800d8ad898dfa1bfed2857735f31ed50f2e8f[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/Master[m[33m)[m
+Merge: a4123f3 b8f8f6e
+Author: Kerin Pithawala <46436993+KerinPithawala@users.noreply.github.com>
+Date:   Sun Jan 17 20:20:02 2021 +0530
+
+    Merge pull request #8 from KerinPithawala/KerinPithawala-patch-1
+    
+    Update README.md
+
+[33mcommit b8f8f6e879db3d85a6cdcb494bd3aff0b71b9fa1[m[33m ([m[1;31morigin/KerinPithawala-patch-1[m[33m)[m
+Author: Kerin Pithawala <46436993+KerinPithawala@users.noreply.github.com>
+Date:   Sun Jan 17 20:19:16 2021 +0530
+
+    Update README.md
+
+[33mcommit a4123f329497fe8a696532b197caed8b65b2886a[m
+Author: Jolin Lin <jolinlin5622@hotmail.com>
+Date:   Sun Jan 17 03:12:05 2021 -0800
+
+    Finished trip page, reformatted other pages.
+
+[33mcommit 7ac912180532be824fff90dcc2c1b8f88f1327f3[m
+Author: Jolin Lin <jolinlin5622@hotmail.com>
+Date:   Sun Jan 17 02:17:23 2021 -0800
+
+    setting up profile, squad pages
+
+[33mcommit e132da13f1bfa3edcbcab59c7b400d6707e1726e[m
+Author: Jolin Lin <jolinlin5622@hotmail.com>
+Date:   Sun Jan 17 00:33:47 2021 -0800
+
+    modularized all the components
+
+[33mcommit 65b5c14d418b1a263462f8467ea7e0fcf52b0305[m
+Author: Jolin Lin <jolinlin5622@hotmail.com>
+Date:   Sat Jan 16 20:41:09 2021 -0800
+
+    Landing page, login page, resgistration page, start of squad page
