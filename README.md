@@ -1,16 +1,9 @@
 # Homies
-Stay at home with your buddies!
+Stay at home. Compete with friends. Keep neighbourhoods safe.
 Project made during HackTheNorth 2020++
 
-During this pandemic it is extremely important to reduce going out to decrease the rate of virus transmission.
+During this pandemic, it is extremely important to reduce how often we go out to decrease the rate of transmission.
 
-App to hold social accountability of not going outside for non-essential purposes by creating social accountability
-partners on an app in which users send their friends a folder of embarrassing photos that they will have complete 
-access to choose and post on the other user’s account if they break the rule and go outside.
+Homies is an app to hold social accountability of staying at home through accountability "squads". At the beginning of the week, users send in a piece of collateral in the form of an embarrassing photo. Users accumulate demerit points when they leave their home, and the point value for a certain activity is determined based on its associated risk level. The app analyzes locations for popularity and peak times, and will place a larger demerit point value on locations that are more crowded. At the end of the week, the user with the most demerit points in their squad will be subject to having their embarrassing photo posted automatically to their social media page for 24 hours.
 
-Incentivizes going outside when the store is less busy
-Encourages friends to hold each other accountable
-Whoever has the most points at the end of the week in an accountability group gets their photo posted
-Automatically deleted after 24 hours
-If everyone is below an pre-determined level x, everyone is safe
-
+The gamification of the stay at home order encourages friends to hold each other accountable in keeping our communities safe.
