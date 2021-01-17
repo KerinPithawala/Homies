@@ -65,7 +65,7 @@ class LandingRoute extends StatelessWidget {
                           ],
                           color: Color(0xffa4b3e6),
                         ),
-                        margin: const EdgeInsets.only(right: 12),
+                        margin: const EdgeInsets.only(right: 15),
                         padding: const EdgeInsets.symmetric(
                           horizontal: 15,
                           vertical: 18,
@@ -107,7 +107,7 @@ class LandingRoute extends StatelessWidget {
                           ],
                           color: Color(0xffa4b3e6),
                         ),
-                        margin: const EdgeInsets.only(right: 12),
+                        margin: const EdgeInsets.only(left: 15),
                         padding: const EdgeInsets.symmetric(
                           horizontal: 15,
                           vertical: 18,

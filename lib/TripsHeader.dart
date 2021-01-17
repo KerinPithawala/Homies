@@ -23,8 +23,8 @@ class TripsHeader extends StatelessWidget {
       child: Stack(
         children: [
           Positioned(
-            left: 100,
-            top: 50,
+            left: 105,
+            top: 70,
             child: TripsSearchBar(),
           )
 

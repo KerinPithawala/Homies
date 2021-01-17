@@ -47,7 +47,19 @@ class ProfileRoute extends StatelessWidget {
             Positioned(
               left: 29,
               top: 342,
-              child: ListTitle(),
+              child: SizedBox(
+                width: 351,
+                height: 35,
+                child: Text(
+                  "Scores",
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 24,
+                    fontFamily: "Poppins",
+                    fontWeight: FontWeight.w700,
+                  ),
+                ),
+              ),
             ),
             Positioned(
               left: 20,

@@ -71,7 +71,7 @@ class ProfileScoreCard extends StatelessWidget {
               ),
             ),
             Positioned(
-              left: 23,
+              left: 21,
               top: 25,
               child: SizedBox(
                 width: 60,

@@ -12,7 +12,17 @@ class TripCard extends StatelessWidget {
           Container(
             width: 351,
             height: 70,
-            color: Colors.white,
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(20),
+              boxShadow: [
+                BoxShadow(
+                  color: Color(0x3f000000),
+                  blurRadius: 4,
+                  offset: Offset(0, 4),
+                ),
+              ],
+              color: Colors.white,
+            ),
             padding: const EdgeInsets.only(
               left: 27,
               right: 7,
@@ -22,24 +32,11 @@ class TripCard extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.end,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                SizedBox(
-                  width: 56,
-                  child: Text(
-                    "Jan 8",
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 18,
-                      fontFamily: "Roboto",
-                      fontWeight: FontWeight.w700,
-                      letterSpacing: 0.72,
-                    ),
-                  ),
-                ),
                 SizedBox(width: 23),
                 SizedBox(
                   width: 129,
                   child: Text(
-                    "Shoppers Drug Mart",
+                    "Scotiabank",
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: 14,
@@ -68,16 +65,37 @@ class TripCard extends StatelessWidget {
           ),
           Positioned(
             left: 12,
-            top: 49,
-            child: Opacity(
-              opacity: 0.50,
-              child: Container(
-                width: 85,
+            top: 20,
+            child: Container(
+                width: 80,
                 height: 28,
-                color: Color(0xff633ac5),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  color: Color(0xff633ac5),
+                ),
+                padding: const EdgeInsets.only(
+                  left: 4,
+                  right: 4,
+                  top: 4,
+                  bottom: 4,
+              ),
+                child: SizedBox(
+                  width: 56,
+                  child: Text(
+                    "Jan 8",
+                    textAlign: TextAlign.center,
+
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 18,
+                      fontFamily: "Roboto",
+                      fontWeight: FontWeight.w700,
+                      letterSpacing: 0.72,
+                    ),
+                  ),
+                ),
               ),
             ),
-          ),
         ],
       ),
     );
