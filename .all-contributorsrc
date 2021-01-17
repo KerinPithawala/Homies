@@ -6,12 +6,14 @@
   "commit": false,
   "contributors": [
     {
-      "login": "KerinPithawala",
-      "name": "Kerin Pithawala",
-      "avatar_url": "https://avatars3.githubusercontent.com/u/46436993?v=4",
-      "profile": "https://github.com/KerinPithawala",
+all-contributors/add-friendly304010
+      "login": "friendly304010",
+      "name": "Samantha Ouyang",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/43822090?v=4",
+      "profile": "https://github.com/friendly304010",
       "contributions": [
-        "design"
+        "code"
+
       ]
     }
   ],
